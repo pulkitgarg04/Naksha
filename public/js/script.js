@@ -5,7 +5,7 @@ if (navigator.geolocation) {
             const longitude = position.coords.longitude;
             console.log('Position:', position);
 
-            map.setView([latitude, longitude], 10);
+            map.setView([latitude, longitude], 16);
 
             if (markers['user']) {
                 markers['user'].setLatLng([latitude, longitude]);
