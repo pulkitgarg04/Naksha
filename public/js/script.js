@@ -26,7 +26,7 @@ if (navigator.geolocation) {
     console.log("Geolocation is not supported by this browser.");
 }
 
-const map = L.map("map").setView([28.6139, 77.2090], 10);
+const map = L.map("map").setView([0, 0], 16);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {  
     attribution: 'Naksha by Pulkit Garg'
