@@ -4,12 +4,25 @@
 
 ![Naksha](https://socialify.git.ci/pulkitgarg04/Naksha/image?language=1&name=1&owner=1&theme=Dark)
 
-**Naksha** (Hindi for "map") is a lightweight, user-friendly web application that uses the [Leaflet](https://leafletjs.com/) library to render an interactive map and pinpoint the user’s current location via the browser’s Geolocation API.
+**Naksha** (Hindi for "map") is a lightweight, user-friendly web application that uses the [Leaflet](https://leafletjs.com/) library to render an interactive world explorer to explore iconic landmarks, natural wonders, food capitals, sports venues, historic sites, and filming locations.
 
-## Usage
-- **View Map**: Open the app to see an interactive map centered on a default location.
-- **Locate Me**: The app automatically requests your location and marks it with a pin.
-- **Interact**: Zoom, pan, or click the marker to view coordinates.
+## What It Does
+
+- Shows an interactive world map with 2k+ place records
+- Lets users browse places by category
+- Opens a popup card with facts when a marker is clicked
+- Marks the user's live location when geolocation is allowed
+- Uses a collapsible category panel for quick filtering
+
+## Categories
+
+- Landmarks
+- Natural Wonders
+- Iconic Cities
+- Sports Venues
+- Filming Locations
+- Historic Events
+- Food Capitals
 
 ## Installation
 1. **Clone the Repository**:
